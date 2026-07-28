@@ -68,7 +68,6 @@ def print_fibonacci(n):
     print()
 
 
-# Function to check if a number is a Fibonacci number
 def is_fibonacci(number):
     a = 0
     b = 1
