@@ -34,7 +34,6 @@
 # =============================================================================
 # YOUR CODE BELOW — remove the # symbols from the scaffold and fill it in
 # =============================================================================
-# Function to check if a number is prime
 def is_prime(number):
     if number < 2:
         return False
@@ -46,7 +45,6 @@ def is_prime(number):
     return True
 
 
-# Main program
 num = int(input("Enter a number: "))
 
 if is_prime(num):
