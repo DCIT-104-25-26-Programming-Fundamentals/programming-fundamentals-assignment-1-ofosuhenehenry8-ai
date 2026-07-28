@@ -67,22 +67,22 @@
 # =============================================================================
 # YOUR CODE BELOW — remove the # symbols from the scaffold and fill it in
 # =============================================================================
-# Function for addition
+
 def add(a, b):
     return a + b
 
 
-# Function for subtraction
+
 def subtract(a, b):
     return a - b
 
 
-# Function for multiplication
+
 def multiply(a, b):
     return a * b
 
 
-# Function for division
+
 def divide(a, b):
     if b == 0:
         return "Error: Cannot divide by zero."
@@ -96,12 +96,12 @@ def modulus(a, b):
     return a % b
 
 
-# Function for exponentiation
+
 def exponent(a, b):
     return a ** b
 
 
-# Main program
+
 while True:
     print("\n============================")
     print("     SIMPLE CALCULATOR")
