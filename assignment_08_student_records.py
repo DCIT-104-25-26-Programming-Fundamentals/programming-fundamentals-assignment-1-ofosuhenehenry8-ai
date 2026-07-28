@@ -93,7 +93,7 @@
 students = []
 
 
-# Function to add a student
+
 def add_student():
     name = input("Student name: ")
     student_id = input("Student ID: ")
@@ -115,7 +115,6 @@ def add_student():
     print(f'Student "{name}" added successfully.')
 
 
-# Function to display all students
 def display_students():
     if len(students) == 0:
         print("No student records found.")
@@ -134,7 +133,7 @@ def display_students():
     print("-" * 70)
 
 
-# Function to calculate the average score of a specific student
+
 def calculate_average():
     student_id = input("Enter student ID: ")
 
@@ -147,7 +146,7 @@ def calculate_average():
     print("Student ID not found.")
 
 
-# Main program
+
 while True:
     print("\n================================")
     print("   STUDENT RECORD SYSTEM MENU")
