@@ -82,14 +82,14 @@
 tasks = []
 
 
-# Function to add a task
+
 def add_task():
     task = input("Enter task: ")
     tasks.append(task)
     print(f'Task added: "{task}"')
 
 
-# Function to view tasks
+
 def view_tasks():
     if len(tasks) == 0:
         print("Your to-do list is empty.")
@@ -99,7 +99,6 @@ def view_tasks():
             print(f"{i}. {task}")
 
 
-# Function to delete a task
 def delete_task():
     if len(tasks) == 0:
         print("No tasks to delete.")
@@ -119,7 +118,7 @@ def delete_task():
         print("Please enter a valid number.")
 
 
-# Main program
+
 while True:
     print("\n============================")
     print("     TO-DO LIST MENU")
