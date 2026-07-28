@@ -89,10 +89,6 @@
 # =============================================================================
 # YOUR CODE BELOW — remove the # symbols from the scaffold and fill it in
 # =============================================================================
-# List to store student records
-students = []
-
-
 
 def add_student():
     name = input("Student name: ")
