@@ -45,9 +45,7 @@
 # YOUR CODE BELOW — remove the # symbols from the scaffold and fill it in
 # =============================================================================
 
-# Function to determine the student's grade
-# Function to calculate total sum using a loop
-# Function to determine the student's grade
+
 def get_grade(score):
     if score < 0 or score > 100:
         return None
