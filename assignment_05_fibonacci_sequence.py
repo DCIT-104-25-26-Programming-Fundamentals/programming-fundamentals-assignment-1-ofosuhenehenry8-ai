@@ -48,7 +48,7 @@
 # =============================================================================
 # YOUR CODE BELOW — remove the # symbols from the scaffold and fill it in
 # =============================================================================
-# Function to print the first N Fibonacci numbers
+
 def print_fibonacci(n):
     if n <= 0:
         print("Error: Number of terms must be a positive integer.")
