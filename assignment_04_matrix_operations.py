@@ -60,7 +60,7 @@
 # YOUR CODE BELOW — remove the # symbols from the scaffold and fill it in
 # =============================================================================
 
-# Function to read a matrix
+
 def read_matrix(rows, cols):
     matrix = []
     for i in range(rows):
@@ -69,7 +69,6 @@ def read_matrix(rows, cols):
     return matrix
 
 
-# Function to display a matrix
 def display_matrix(matrix):
     for row in matrix:
         for value in row:
@@ -77,7 +76,7 @@ def display_matrix(matrix):
         print()
 
 
-# Part A: Function to transpose a matrix
+
 def transpose_matrix(matrix):
     rows = len(matrix)
     cols = len(matrix[0])
@@ -92,7 +91,7 @@ def transpose_matrix(matrix):
     return transpose
 
 
-# Part B: Function to add two matrices
+
 def add_matrices(matrix1, matrix2):
     rows = len(matrix1)
     cols = len(matrix1[0])
@@ -107,7 +106,7 @@ def add_matrices(matrix1, matrix2):
     return result
 
 
-# Part C: Function to multiply two matrices
+
 def multiply_matrices(matrix1, matrix2):
     rows1 = len(matrix1)
     cols1 = len(matrix1[0])
@@ -129,7 +128,7 @@ def multiply_matrices(matrix1, matrix2):
 
 def main():
 
-    # ------------------ PART A ------------------
+   
     print("PART A - Transpose Matrix")
     rows = int(input("Enter number of rows: "))
     cols = int(input("Enter number of columns: "))
@@ -143,7 +142,7 @@ def main():
     transposed = transpose_matrix(matrix)
     display_matrix(transposed)
 
-    # ------------------ PART B ------------------
+   
     print("\nPART B - Add Two Matrices")
     rows = int(input("Enter number of rows: "))
     cols = int(input("Enter number of columns: "))
@@ -159,7 +158,7 @@ def main():
     print("\nSum of Matrices:")
     display_matrix(result)
 
-    # ------------------ PART C ------------------
+   
     print("\nPART C - Multiply Two Matrices")
 
     rows1 = int(input("Enter rows of Matrix A: "))
@@ -184,5 +183,5 @@ def main():
     display_matrix(product)
 
 
-# Run the program
+
 main()
