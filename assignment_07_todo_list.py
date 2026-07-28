@@ -78,10 +78,6 @@
 # =============================================================================
 # YOUR CODE BELOW — remove the # symbols from the scaffold and fill it in
 # =============================================================================
-# List to store tasks
-tasks = []
-
-
 
 def add_task():
     task = input("Enter task: ")
